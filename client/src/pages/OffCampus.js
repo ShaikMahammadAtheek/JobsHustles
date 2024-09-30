@@ -71,7 +71,7 @@ const OffCampus = () => {
   const [jobs, setJobs] = useState([]);
 
   useEffect(() => {
-    axios.get('https://jobs-hustle.onrender.com/api/offcampus')  // Make sure the API URL is correct
+    axios.get('https://jobshustle-tobl.onrender.com/api/offcampus')  // Make sure the API URL is correct
       .then((response) => {
         setJobs(response.data);  // Update jobs with response data
       })
