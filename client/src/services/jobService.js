@@ -10,7 +10,7 @@
 
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/jobs';
+const API_URL = 'https://jobshustle-tobl.onrender.com/jobs';
 
 
 export const getJobs = () => axios.get(API_URL);
