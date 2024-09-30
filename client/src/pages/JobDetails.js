@@ -12,7 +12,7 @@ const JobDetails = () => {
   useEffect(() => {
     const fetchJobDetails = async () => {
       try {
-        const response = await axios.get(`https://jobs-hustle.onrender.com/api/home/${id}`);
+        const response = await axios.get(`https://jobshustle-tobl.onrender.com/api/home/${id}`);
         setJob(response.data);
       } catch (err) {
         console.error('Error fetching job details:', err);
