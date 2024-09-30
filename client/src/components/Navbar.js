@@ -283,7 +283,7 @@ const Navbar = () => {
   // Fetch cities when the dropdown is opened
   useEffect(() => {
     if (isDropdownOpen) {
-      axios.get('https://jobs-hustle.onrender.com/api/cities')
+      axios.get('https://jobshustle-tobl.onrender.com/api/cities')
         .then(response => {
           const cleanCities = [...new Set(response.data.map(city => city.trim()))].sort();
           setDropdownCities(cleanCities);
