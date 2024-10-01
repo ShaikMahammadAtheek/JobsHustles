@@ -6,7 +6,7 @@ const Internships = () => {
   const [jobs, setJobs] = useState([]);
 
   useEffect(() => {
-    axios.get('https://jobshustle-tobl.onrender.com/api/internships')  // Make sure the API URL is correct
+    axios.get('https://jobs-hustle.onrender.com/api/internships')  // Make sure the API URL is correct
       .then((response) => {
         setJobs(response.data);  // Update jobs with response data
       })
