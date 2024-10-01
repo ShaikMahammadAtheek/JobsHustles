@@ -123,8 +123,8 @@ app.use(cors({ origin: 'https://jobshustle.onrender.com' }));// frontend url
 app.use(express.json());
 app.use(bodyParser.json());
 
-
-const uri = 'mongodb://127.0.0.1:27017/jobportal'; // Use your MongoDB URI here
+const uri= 'mongodb+srv://mahammadatheek17:64CD3iWJIUMED24C@cluster0.rdkhg.mongodb.net/jobportal'
+// const uri = 'mongodb://127.0.0.1:27017/jobportal'; // Use your MongoDB URI here
 //mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 mongoose.connect(uri)
 
