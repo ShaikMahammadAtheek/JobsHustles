@@ -119,7 +119,7 @@ const Job = require('./models/job.model');
 
 // Middleware
 // app.use(cors());
-app.use(cors({ origin: 'https://jobshustle.onrender.com' }));// frontend url
+app.use(cors({ origin: 'https://jobshustles.onrender.com' }));// frontend url
 app.use(express.json());
 app.use(bodyParser.json());
 
