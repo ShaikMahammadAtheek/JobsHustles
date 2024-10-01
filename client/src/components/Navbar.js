@@ -308,7 +308,7 @@ const Navbar = () => {
       
 
       <div className="navbar-logo">
-        <span>JobHustels</span>
+        <span>JobHustelsss</span>
       </div>
 
       <div>
