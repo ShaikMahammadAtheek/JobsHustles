@@ -51,7 +51,7 @@ const JobByCity = () => {
   const [jobs, setJobs] = useState([]);
 
   useEffect(() => {
-    axios.get(`https://jobshustle-tobl.onrender.com/api/job-by-city/${city}`)
+    axios.get(`https://jobs-hustle.onrender.com/api/job-by-city/${city}`)
       .then(response => setJobs(response.data))
       .catch(error => console.error('Error fetching jobs:', error));
   }, [city]);
